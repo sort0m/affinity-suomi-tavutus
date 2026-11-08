@@ -1,11 +1,12 @@
 # Suomen tavutus Affinityyn
 
-Tämä paketti sisältää suomen kielen automaattisen tavutuksen sääntötiedoston
-Affinityyn. Käyttöön tarvitaan vain `hyph_fi_FI.dic`.
+Tämä paketti sisältää suomen automaattisen tavutuksen sääntötiedoston
+Affinityyn. Affinity 3 yhdistää aiempien Publisher-, Photo- ja Designer-sovellusten
+työkalut samaan sovellukseen. Käyttöön tarvitaan vain `hyph_fi_FI.dic`.
 
 ## Sanastokansion sijainti
 
-Tarkista ensin Affinityn **Asetukset > Työkalut** -kohdasta
+Tarkista ensin Affinityn **Settings > Tools** -kohdasta
 **Additional dictionary folder**. Jos siihen on valittu oma kansio, käytä sitä.
 Windowsissa asetukset löytyvät yleensä **Edit > Settings** -valikosta ja
 macOS:ssä sovelluksen nimellä alkavasta valikosta.
@@ -21,8 +22,8 @@ Tavallisia sijainteja ovat:
 
 `ProgramData` ja käyttäjän `Library` voivat olla piilotettuja. Voit avata
 Windows-polun liittämällä sen Resurssienhallinnan osoiteriville ja macOS-polun
-Finderin **Siirry kansioon** -toiminnolla. Luo puuttuva `Dictionaries`- tai
-suomen kielen kansio tarvittaessa. Asennustapa, sovellusversio tai itse valittu
+Finderin **Go > Go to Folder** -toiminnolla. Luo puuttuva `Dictionaries`- tai
+suomen kielikansio tarvittaessa. Asennustapa, sovellusversio tai itse valittu
 lisäsanastokansio voi muuttaa sijaintia.
 
 ## Asennus
@@ -40,12 +41,12 @@ lisäsanastokansio voi muuttaa sijaintia.
 
 1. Valitse tekstikehys. Kehyksen sisältämää tekstiä ei tarvitse valita erikseen.
 2. Avaa **Character > Language** ja valitse **Hyphenation**-kohdassa
-   **Suomi (Suomi)**.
-3. Avaa **Paragraph > Hyphenation** ja ota **Use Auto-Hyphenation** käyttöön.
+   **Finnish (Finland)**.
+3. Avaa **Paragraph > Hyphenation** ja ota **Use auto-hyphenation** käyttöön.
 
 Tiedosto on UTF-8-koodattu, ja sen ensimmäisen rivin on pysyttävä `UTF-8`.
-Affinity voi rajoittaa katkaisukohtia omilla asetuksillaan. Säännöt eivät 
-aina tavuta yhdyssanoja tai monitulkintaisia sanoja oikein.
+Affinity voi rajoittaa katkaisukohtia omilla asetuksillaan. Säännöt eivät
+tunnista kaikkia yhdyssanoja tai monitulkintaisia sanoja.
 
 ## Sisältö ja lähde
 
@@ -68,8 +69,8 @@ korjattu ja lisätty, tiedoston merkistömäärittely on vaihdettu UTF-8:aan sek
 muokattava sääntölähde ja rakennustyökalut on lisätty pakettiin. Korjattuja
 esimerkkejä ovat `vuok-ra`, `kan-san-elä-ke`, `ih-mis-oi-keus` ja `osa-puo-li`.
 Tämä muokattu paketti julkaistaan GNU GPL 3 -lisenssillä.
-Projektin 265 esimerkkisanan testit ja 87 643 hakusanan tekninen vertailu 
-onnistuivat. Koko aineiston kielellistä oikeellisuutta tai Affinityn
+Projektin 265 esimerkkisanaa ja sääntöjen tekninen vertailu 87 643 hakusanalla
+menivät läpi. Koko aineiston kielellistä oikeellisuutta tai Affinityn
 todellista rivijakoa ei ole todennettu.
 
 Säännöt voi rakentaa uudelleen paketin juuressa komennolla
