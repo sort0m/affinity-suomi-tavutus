@@ -34,9 +34,19 @@ lisäsanastokansio voi muuttaa sijaintia.
    sen nimi on `fi_FI` ja macOS:ssä `fi-FI`.
 3. Jos kielikansiossa on jo `hyph_fi_FI.dic`, ota siitä varmuuskopio. Kopioi
    tämän paketin `hyph_fi_FI.dic` kielikansioon.
-4. Käynnistä Affinity uudelleen. Valitse tekstin tavutuskieleksi suomi ja ota
-   kappaleen automaattinen tavutus käyttöön.
+4. Käynnistä Affinity uudelleen ja ota tavutus käyttöön alla olevan ohjeen mukaan.
 5. Tarkista asiakirjan rivijako: uusi tavutus voi muuttaa taittoa.
+
+## Tavutuksen käyttö Affinityssä
+
+1. Valitse teksti, johon haluat suomenkielisen tavutuksen. Jos haluat tavuttaa
+   koko tekstikehyksen sisällön, valitse sen kaikki teksti.
+2. Avaa **Character > Language** ja valitse **Hyphenation**-kohdassa kieleksi
+   **Finnish**. Oikeinkirjoituksen **Spelling**-asetus on tästä erillinen.
+3. Avaa **Paragraph > Hyphenation** ja ota **Use Auto-Hyphenation** käyttöön.
+
+Tavutus näkyy rivin lopussa, kun sana ei mahdu kokonaan riville. Jos teksti ei
+tavutu, tarkista sekä tekstin kieli että kappaleen automaattisen tavutuksen asetus.
 
 Tiedosto on UTF-8-koodattu, ja sen ensimmäisen rivin on pysyttävä `UTF-8`.
 Affinity voi rajoittaa katkaisukohtia omilla asetuksillaan. Säännöt eivät
