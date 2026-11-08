@@ -8,8 +8,11 @@ from build_hyphenation import ROOT, OUTPUT, read_patterns, render
 
 ARCHIVE = ROOT / "Affinity-suomi-tavutus.zip"
 PACKAGE = "Affinity-suomi-tavutus"
+README = ROOT / "README.md"
+if (ROOT / "TAVUTUS-JULKAISU.md").is_file():
+    README = ROOT / "TAVUTUS-JULKAISU.md"
 FILES = {
-    "README.md": ROOT / "TAVUTUS-JULKAISU.md",
+    "README.md": README,
     "LICENSE": ROOT / "LICENSE",
     "hyph_fi_FI.dic": OUTPUT,
     "hyphenation_patterns.txt": ROOT / "hyphenation_patterns.txt",
