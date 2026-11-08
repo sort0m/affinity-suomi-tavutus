@@ -1,7 +1,8 @@
 # Suomen tavutus Affinityyn
 
 Tämä paketti sisältää suomen automaattisen tavutuksen sääntötiedoston
-Affinityyn. Käyttöön tarvitaan vain `hyph_fi_FI.dic`.
+Affinityyn. Affinity 3 yhdistää aiempien Publisher-, Photo- ja Designer-sovellusten
+työkalut samaan sovellukseen. Käyttöön tarvitaan vain `hyph_fi_FI.dic`.
 
 ## Sanastokansion sijainti
 
@@ -38,14 +39,10 @@ lisäsanastokansio voi muuttaa sijaintia.
 
 ## Tavutuksen käyttö Affinityssä
 
-1. Valitse teksti, johon haluat suomenkielisen tavutuksen. Jos haluat tavuttaa
-   koko tekstikehyksen sisällön, valitse sen kaikki teksti.
-2. Avaa **Character > Language** ja valitse **Hyphenation**-kohdassa kieleksi
-   **Finnish**. Oikeinkirjoituksen **Spelling**-asetus on tästä erillinen.
+1. Valitse tekstikehys. Kehyksen sisältämää tekstiä ei tarvitse valita erikseen.
+2. Avaa **Character > Language** ja valitse **Hyphenation**-kohdassa
+   **Suomi (Suomi)**.
 3. Avaa **Paragraph > Hyphenation** ja ota **Use Auto-Hyphenation** käyttöön.
-
-Tavutus näkyy rivin lopussa, kun sana ei mahdu kokonaan riville. Jos teksti ei
-tavutu, tarkista sekä tekstin kieli että kappaleen automaattisen tavutuksen asetus.
 
 Tiedosto on UTF-8-koodattu, ja sen ensimmäisen rivin on pysyttävä `UTF-8`.
 Affinity voi rajoittaa katkaisukohtia omilla asetuksillaan. Säännöt eivät
