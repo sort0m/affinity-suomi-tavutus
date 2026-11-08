@@ -1,6 +1,6 @@
 # Suomen tavutus Affinityyn
 
-Tämä paketti sisältää suomen automaattisen tavutuksen sääntötiedoston
+Tämä paketti sisältää suomen kielen automaattisen tavutuksen sääntötiedoston
 Affinityyn. Käyttöön tarvitaan vain `hyph_fi_FI.dic`.
 
 ## Sanastokansion sijainti
@@ -22,7 +22,7 @@ Tavallisia sijainteja ovat:
 `ProgramData` ja käyttäjän `Library` voivat olla piilotettuja. Voit avata
 Windows-polun liittämällä sen Resurssienhallinnan osoiteriville ja macOS-polun
 Finderin **Siirry kansioon** -toiminnolla. Luo puuttuva `Dictionaries`- tai
-suomen kielikansio tarvittaessa. Asennustapa, sovellusversio tai itse valittu
+suomen kielen kansio tarvittaessa. Asennustapa, sovellusversio tai itse valittu
 lisäsanastokansio voi muuttaa sijaintia.
 
 ## Asennus
@@ -44,8 +44,8 @@ lisäsanastokansio voi muuttaa sijaintia.
 3. Avaa **Paragraph > Hyphenation** ja ota **Use Auto-Hyphenation** käyttöön.
 
 Tiedosto on UTF-8-koodattu, ja sen ensimmäisen rivin on pysyttävä `UTF-8`.
-Affinity voi rajoittaa katkaisukohtia omilla asetuksillaan. Säännöt eivät
-tunnista kaikkia yhdyssanoja tai monitulkintaisia sanoja.
+Affinity voi rajoittaa katkaisukohtia omilla asetuksillaan. Säännöt eivät 
+aina tavuta yhdyssanoja tai monitulkintaisia sanoja oikein.
 
 ## Sisältö ja lähde
 
@@ -68,8 +68,8 @@ korjattu ja lisätty, tiedoston merkistömäärittely on vaihdettu UTF-8:aan sek
 muokattava sääntölähde ja rakennustyökalut on lisätty pakettiin. Korjattuja
 esimerkkejä ovat `vuok-ra`, `kan-san-elä-ke`, `ih-mis-oi-keus` ja `osa-puo-li`.
 Tämä muokattu paketti julkaistaan GNU GPL 3 -lisenssillä.
-Projektin 265 esimerkkisanaa ja sääntöjen tekninen vertailu 87 643 hakusanalla
-menivät läpi. Koko aineiston kielellistä oikeellisuutta tai Affinityn
+Projektin 265 esimerkkisanan testit ja 87 643 hakusanan tekninen vertailu 
+onnistuivat. Koko aineiston kielellistä oikeellisuutta tai Affinityn
 todellista rivijakoa ei ole todennettu.
 
 Säännöt voi rakentaa uudelleen paketin juuressa komennolla
