@@ -1,8 +1,7 @@
 # Suomen tavutus Affinityyn
 
 Tämä paketti sisältää suomen automaattisen tavutuksen sääntötiedoston
-Affinityyn. Affinity 3 yhdistää aiempien Publisher-, Photo- ja Designer-sovellusten
-työkalut samaan sovellukseen. Käyttöön tarvitaan vain `hyph_fi_FI.dic`.
+Affinityyn. Käyttöön tarvitaan vain `hyph_fi_FI.dic`.
 
 ## Sanastokansion sijainti
 
